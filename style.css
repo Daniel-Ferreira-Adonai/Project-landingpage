@@ -1,6 +1,6 @@
 body {
     
-    max-width: 1440px;
+    width: 1920px;
     Height: 3610px; 
    max-width: 1920px;
     background-color: #ffffff;
@@ -52,6 +52,7 @@ body {
     display: flex;
     gap: 56px;
     padding: 250px;    
+   
     
 }   
 #lupa
@@ -69,6 +70,7 @@ height: 24px;
     line-height: 23px; 
     letter-spacing: 1.5px;
     transition: background 5s;
+    
 }
 
 #navbar ul li a:hover {
@@ -189,6 +191,8 @@ object-fit: cover;
     font-family: Poppins;
     top: 100%;
     left: 46%;
+    display: flex;
+    flex-direction: column;
 }   
 #servicos ul li p {
     color: #ffffff;
