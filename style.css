@@ -1,6 +1,6 @@
 body {
     
-    width: 1920px;
+    max-width: 1440px;
     Height: 3610px; 
    max-width: 1920px;
     background-color: #ffffff;
@@ -626,4 +626,26 @@ object-fit: cover;
 #whats2:hover{
     background-color: #510b01;
     
+}
+
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
+    body {
+        font-size: 14px; /* Reduce the font size */
+    }
+
+    #navbar {
+        margin-left: 10px; /* Adjust margins for smaller screens */
+    }
+    /* Add more responsive styles as needed */
+}
+
+/* For medium-sized screens (e.g., tablets) */
+@media (max-width: 1024px) {
+    /* Adjust styles for medium-sized screens here */
+}
+
+/* For large screens (e.g., desktops) */
+@media (min-width: 1025px) {
+    /* Adjust styles for large screens here */
 }
