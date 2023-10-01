@@ -1,6 +1,6 @@
 body {
     
-    Width: 1920px;
+    max-width: 1920px;
     Height: 3610px; 
    max-width: 1920px;
     background-color: #ffffff;
@@ -191,14 +191,10 @@ object-fit: cover;
     left: 46%;
 }   
 #servicos ul li p {
- 
-   
-    color: #ffffff; /* White text color */
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 18px; /* Set a fixed font size */
     white-space: pre-line;
-    
-  
- transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     margin-bottom: 20px;
 }
 
